@@ -1,0 +1,60 @@
+[20170928_00] echo 170929_151403 start...
+[20170928_00] rm -rf /home/peggy/NCHC_NOAA/NCHC_NOAA/20170928_00
+[20170928_00] echo 170929_152140 finish
+[20170929_00] echo 170930_124237 start...
+[20170929_00] /home/peggy/NCHC_NOAA/convert.sh 20170929 00
+[20170929_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20170929_00/video/20170929_00.mp4 peggy@140.110.141.141:~/video/
+[20170929_00] rm -rf /home/peggy/NCHC_NOAA/NCHC_NOAA/20170929_00
+[20170929_00] echo 170930_125156 finish
+[20171001_00] echo 171002_104350 start...
+[20171001_00] /home/peggy/NCHC_NOAA/convert.sh 20171001 00
+[20171001_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20171001_00/video/20171001_00.mp4 peggy@140.110.141.141:~/video/
+[20171001_00] echo 171002_105217 finish
+[20171001_00] echo 171002_112052 start...
+[20171001_00] echo 171002_112427 finish
+[20171001_00] echo 171002_113312 start...
+[20171001_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171001_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171001_00
+[20171001_00] echo 171002_120414 finish
+[20170930_00] echo 171002_121348 start...
+[20170930_00] /home/peggy/NCHC_NOAA/convert.sh 20170930 00
+[20170930_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20170930_00/video/20170930_00.mp4 peggy@140.110.141.141:/home/peggy/video/
+[20170930_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20170930_00
+[20170930_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20170930_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20170930_00
+[20170930_00] echo 171002_125215 finish
+[20170930_00ls] echo 171002_134918 start...
+[20170831_00] echo 171002_135327 start...
+[20170831_00] /home/peggy/NCHC_NOAA/convert.sh 20170831 00
+[20170831_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20170831_00/video/20170831_00.mp4 peggy@140.110.141.141:/home/peggy/video/
+[20170831_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20170831_00
+[20170831_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20170831_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20170831_00
+[20170831_00] echo 171002_143141 finish
+[20171002_00] echo 171003_010101 start...
+[20171002_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171002_00
+[20171002_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171002_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171002_00
+[20171002_00] echo 171003_010134 finish
+[20171002_00] echo 171003_100605 start...
+[20171002_00] /home/peggy/NCHC_NOAA/convert.sh 20171002 00
+[20171002_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20171002_00/video/20171002_00.mp4 peggy@140.110.141.141:/home/peggy/video/
+[20171002_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171002_00
+[20171002_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171002_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171002_00
+[20171002_00] echo 171003_104519 finish
+[20171003_00] echo 171004_010101 start...
+[20171003_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171003_00
+[20171003_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171003_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171003_00
+[20171003_00] echo 171004_010133 finish
+[20171004_00] echo 171005_010101 start...
+[20171004_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171004_00
+[20171004_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171004_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171004_00
+[20171004_00] echo 171005_010148 finish
+[20171004_00] echo 171005_110001 start...
+[20171004_00] /home/peggy/NCHC_NOAA/convert.sh 20171004 00
+[20171004_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20171004_00/video/20171004_00.mp4 peggy@140.110.141.141:/home/peggy/video/
+[20171004_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171004_00
+[20171004_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171004_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171004_00
+[20171004_00] echo 171005_114153 finish
+[20171003_00] echo 171005_131924 start...
+[20171003_00] /home/peggy/NCHC_NOAA/convert.sh 20171003 00
+[20171003_00] scp /home/peggy/NCHC_NOAA/NCHC_NOAA/20171003_00/video/20171003_00.mp4 peggy@140.110.141.141:/home/peggy/video/
+[20171003_00] ssh peggy@140.110.141.141 mkdir -p /home/peggy/origin/20171003_00
+[20171003_00] scp -r /home/peggy/NCHC_NOAA/NCHC_NOAA/20171003_00/grib2 peggy@140.110.141.141:/home/peggy/origin/20171003_00
+[20171003_00] echo 171005_140059 finish
