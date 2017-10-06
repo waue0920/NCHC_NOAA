@@ -1,0 +1,8 @@
+## ubuntu 
+
+sudo pip3 install netCDF4 pymongo
+sudo pip3 install --upgrade pip
+sudo pip2 install pymongo netCDF4 
+sudo pip2 install --upgrade pip
+sudo apt-get install -y gdal-bin ffmpeg python-tk
+

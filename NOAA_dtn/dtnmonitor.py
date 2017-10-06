@@ -114,13 +114,13 @@ class Graph(threading.Thread):
 def monitorit(func):
     def my_wrap(*args, **kwargs):
  #       procmongo = Process(target=dtn2db)
-        procmongo = subprocess.Popen(["python","calldtnscript.py"], stdin=subprocess.PIPE)
+        procmongo = subprocess.Popen(["python3","calldtnscript.py"], stdin=subprocess.PIPE)
 
         mode=args[3]
 #        print(mode)
 #        procmongo.start()
  #       procmongo.join()
-        proc = subprocess.Popen(["python", "bandw.py", str(mode)], stdout=subprocess.PIPE)
+        proc = subprocess.Popen(["python3", "bandw.py", str(mode)], stdout=subprocess.PIPE)
         time.sleep(1)
 
         thread = Graph()
